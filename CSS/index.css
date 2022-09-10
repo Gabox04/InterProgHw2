@@ -1,0 +1,37 @@
+body {
+    background: url(https://wallpaperaccess.com/full/51363.jpg) no-repeat;
+        background-size: cover;
+    
+}
+.navbar  {
+  float: none;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width:auto;
+  background-color:grey;
+  overflow: hidden;
+}
+.navbar a{
+    display: block;
+    color: white;
+    text-align: center;
+    float: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+.navbar a:hover{
+    background: #ddd;
+    color: black;
+}
+
+.main {
+    margin-top: 100px;
+    text-align: center;
+    color:black;
+    
+}
+
